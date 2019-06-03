@@ -20,5 +20,5 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "$1-(M22/I22)"
+  api_key: "$HEROKU_API_KEY"
   app: alextestappo
